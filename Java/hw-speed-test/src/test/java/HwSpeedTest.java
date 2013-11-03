@@ -37,5 +37,10 @@ public class HwSpeedTest {
 	public void displayTest() {
 		System.out.println(HwSpeed.getHelloWorld() + ":" + HwSpeed.getLoopCount());
 	}
+	
+	@Test
+	public void whatever() {
+		System.out.println("STS Git Test");
+	}
 
 }
